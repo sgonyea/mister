@@ -8,11 +8,14 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Scott Gonyea"]
   s.email       = ["me@sgonyea.com"]
-  s.homepage    = ""
+  s.homepage    = 'http://github.com/sgonyea/mister'
   s.summary     = %q{Mister MR.}
-  s.description = %q{Mister is a way for you to organize your MapReduce scripts.}
+  s.description = %q{Mister helps you organize your MapReduce javascripts.}
 
-  s.rubyforge_project = "mister"
+  s.has_rdoc      = true
+  s.add_dependency  'yard'
+
+  s.add_development_dependency 'rspec', '~>2.5'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

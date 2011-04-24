@@ -1,0 +1,4 @@
+--readme README.md
+--title 'Mister API Documentation'
+--charset utf-8
+lib/**/.rb
