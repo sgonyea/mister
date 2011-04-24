@@ -1,0 +1,3 @@
+module Mister
+  # Your code goes here...
+end
