@@ -1,5 +1,4 @@
-# Mister.
-## A Helper Library for Your MapReduce JavaScripts.  CoffeeScripts, too!
+# Mister. A Helper for Your MapReduce JavaScripts.
 
 In keeping with my \[RD]DD pedanticism, and [Tom Preston-Werner's excellent article][tpdub], this README will serve as
 the roadmap for Mister's development. The features/goals are subject to revision, but probably not too much.
