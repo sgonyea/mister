@@ -45,7 +45,7 @@ class Stock
   # or:
 
   reduces :max_variance {
-    include :regressions
+    includes :regressions
   }
 end
 
@@ -58,9 +58,9 @@ you specify otherwise. ie,
 
 ```ruby
 reduces :max_variance {
-  include :regressions
-  sources :max_variance
-  calls   :variance
+  includes  :regressions
+  sources   :max_variance
+  calls     :variance
 }
 ```
 
