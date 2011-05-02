@@ -12,7 +12,6 @@ the roadmap for Mister's development. The features/goals are subject to revision
 * Initially, to work with Riak (that's what I'm familiar with). I'd happily accept contributions to support Mongo, Couch, and others.
 * Allow you to compose more complex MapReduce tasks, within your Models, while keeping your code fairly DRY.
 * Minifies and Caches your JavaScripts, when in production.
-
 * Possibly? Turn the JavaScripts into deployable Migration-like whatevers. Perhaps a Git tag?
 
 # Project Outline
