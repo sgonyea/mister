@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "mister/version"
+require 'mister/version'
 
 Gem::Specification.new do |s|
-  s.name        = "mister"
+  s.name        = 'mister'
   s.version     = Mister::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Scott Gonyea"]
-  s.email       = ["me@sgonyea.com"]
+  s.authors     = ['Scott Gonyea']
+  s.email       = ['me@sgonyea.com']
   s.homepage    = 'http://github.com/sgonyea/mister'
-  s.summary     = %q{Mister MR.}
-  s.description = %q{Mister helps you organize your MapReduce javascripts.}
+  s.summary     = 'Mister MR.'
+  s.description = 'Mister helps you organize your MapReduce JavaScripts.'
 
   s.has_rdoc      = true
   s.add_dependency  'yard'
