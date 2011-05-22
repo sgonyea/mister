@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.has_rdoc      = true
   s.add_dependency  'yard'
 
-  s.add_development_dependency 'rspec', '~>2.5'
+  s.add_development_dependency 'rspec', '~>2.6'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

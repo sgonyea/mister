@@ -48,7 +48,7 @@ class Stock
   }
 end
 
-Stock.where(:symbol => 'GOOG').maps(:valuation_above => [600]).reduces(:max_variance => [1.month])
+Stock.filter(:symbol => 'GOOG').maps(:valuation_above => [600]).reduces(:max_variance => [1.month])
 ```
 
 The symbol is used to look for the map or reduce file, with the same name. If there are any necessary support files,
